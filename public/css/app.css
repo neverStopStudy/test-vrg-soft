@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.book__img > img {
+  height: 250px;
+}
+
+.hidden-btn {
+  display: none;
+  opacity: 0;
+}
+
+.btn-group__control {
+  margin-right: 5px;
+}
+
